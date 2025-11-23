@@ -2,56 +2,47 @@
 
 ## Introduction
 
-This helps you find effects that are disabled in your [Firebot](https://firebot.app) setup.
+This [Firebot](https://firebot.app) plugin finds disabled effects in your setup so you can confirm what should stay off before you go live. It provides Firebot variables that list disabled effects across events, preset effect lists, and other features, making it easy to double-check your choices.
 
-Have you ever disabled certain effects for testing purposes but forgotten to re-enable them before you started your stream? I sure have, which is why I created this plugin. It provides Firebot variables that help you list all of the disabled effects across events, preset effect lists, and more. I created a Firebot Setup with a present effect list containing loops that use this variable and display any disabled effects in your chat feed. I use this to verify that I really _do_ want those effects disabled before I go live.
+## Features
 
-This currently detects disabled effects in:
+- Lists disabled effects across channel rewards, custom commands, events, preset effect lists, scheduled tasks, and timers
+- Exposes variables you can drop into your own preset effect lists or messages
+- Includes a starter Firebot Setup that surfaces disabled effects in your Firebot chat feed so you can review them quickly
 
-- Channel rewards
-- Custom commands
-- Events
-- Preset effect lists
-- Scheduled tasks
-- Timers
+## Documentation
 
-## Installation
-
-1. From the latest [Release](https://github.com/TheStaticMage/firebot-disabled-effect-finder/releases), download `firebot-disabled-effect-finder-<version>.js` into your Firebot scripts directory
-
-    (File &gt; Open Data Folder, then select the "scripts" directory)
-
-    :warning: Be sure you download the file from the releases page, not the source code of the GitHub repository!
-
-2. Enable custom scripts in Firebot (Settings &gt; Scripts) if you have not already done so.
-
-3. Go to Settings &gt; Scripts &gt; Manage Startup Scripts &gt; Add New Script and add the `firebot-disabled-effect-finder-<version>.js` script.
-
-4. Restart Firebot. (The script will _not_ be loaded until you actually restart Firebot.)
+- [Installation](/doc/installation.md)
+- [Upgrading](/doc/upgrading.md)
 
 ## Usage
 
-The easiest way to get started with this is to import my "Disabled Effect Finder" preset effect list:
+The easiest way to get started is to import the "Disabled Effect Finder" preset effect list:
 
-1. Download [`disabled-effect-finder.firebotsetup`](/disabled-effect-finder.firebotsetup) and save it to a place where you can easily find it.
+1. Download [`disabled-effect-finder.firebotsetup`](/disabled-effect-finder.firebotsetup) and save it somewhere easy to find.
+2. In Firebot, go to File &gt; Firebot Setups &gt; Import Firebot Setup. Select the setup file you just downloaded and follow the prompts.
 
-2. In Firebot, go to File &gt; Import Firebot Setup. Select the setup file you just downloaded and follow the prompts to install.
-
-You can now run the preset effect list by clicking the "play" button in the Preset Effect List screen.
+You can now run the preset effect list by clicking the play button in the Preset Effect List screen.
 
 ## Support
 
-The best way to get help is to join our Discord community in [The Static Family](https://discord.gg/yZCWzNSEe9) and head to the `#firebot-disabled-effect-finder` channel.
+The best way to get help is in my Discord server. Join [The Static Discord](https://discord.gg/yZCWzNSEe9) and visit the `#firebot-disabled-effect-finder` channel.
 
 - Please do not DM me on Discord.
-- Please do not ask for help in my chat when I am live on Twitch.
+- Please do not ask for help in my chat when I am streaming.
 
 Bug reports and feature requests are welcome via [GitHub Issues](https://github.com/TheStaticMage/firebot-disabled-effect-finder/issues).
 
-## Contributions
+## Contributing
 
-Contributions are welcome via [Pull Requests](https://github.com/TheStaticMage/firebot-disabled-effect-finder/pulls). I _strongly suggest_ that you contact me before making significant changes, because I'd feel really bad if you spent a lot of time working on something that is not consistent with my vision for the project. Please refer to the [Contribution Guidelines](/.github/contributing.md) for specifics.
+Contributions are welcome via [Pull Requests](https://github.com/TheStaticMage/firebot-disabled-effect-finder/pulls). I _strongly suggest_ that you contact me before making significant changes. Please refer to the [Contribution Guidelines](/.github/contributing.md) for specifics.
 
 ## License
 
-This project is released under the [GNU General Public License version 3](/LICENSE).
+This script is released under the [GNU General Public License version 3](/LICENSE). That makes it free to use whether your stream is monetized or not.
+
+If you use this on your stream, I would appreciate a shout-out. (Appreciated, but not required.)
+
+- <https://www.twitch.tv/thestaticmage>
+- <https://kick.com/thestaticmage>
+- <https://youtube.com/@thestaticmagerisk>
