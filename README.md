@@ -1,5 +1,9 @@
 # Firebot Disabled Effect Finder
 
+## Deprecation Notice
+
+This plugin is not tested with Firebot 5.67 or later and will no longer be developed. No support or updates will be provided. Code and documentation remain archived here for reference purposes only.
+
 ## Introduction
 
 This [Firebot](https://firebot.app) plugin finds disabled effects in your setup so you can confirm what should stay off before you go live. It provides Firebot variables that list disabled effects across events, preset effect lists, and other features, making it easy to double-check your choices.
@@ -9,7 +13,7 @@ This [Firebot](https://firebot.app) plugin finds disabled effects in your setup 
 - Lists disabled effects across channel rewards, custom commands, events, preset effect lists, scheduled tasks, and timers
 - Exposes variables you can drop into your own preset effect lists or messages
 - Includes a starter Firebot Setup that surfaces disabled effects in your Firebot chat feed so you can review them quickly
-
+<!--
 ## Documentation
 
 - [Installation](/doc/installation.md)
@@ -46,3 +50,4 @@ If you use this on your stream, I would appreciate a shout-out. (Appreciated, bu
 - <https://www.twitch.tv/thestaticmage>
 - <https://kick.com/thestaticmage>
 - <https://youtube.com/@thestaticmagerisk>
+-->
